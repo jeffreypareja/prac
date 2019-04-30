@@ -11,18 +11,26 @@
     }
 
     form{
-       display:block;
-       background-color:gray;
-       padding: 0% 10% 5% 10%;
+        display:block;
+        background-color:gray;
+        padding: 10px 10% 5% 10%;
 
-       input,label{
-             width: 100%;
-      }
+        input,label{
+                width: 100%;
+        }
 
-      .login{
-          margin-top: 1em;
-          width: 100%;
-      }
+        input{
+            height: 2em;
+        }
+        .login{
+            height: 3em;
+            margin-top: 1em;
+            width: 100%;
+        }
+
+        .input{
+            margin: 1em 0em 1em 0em;
+        }
    }
 }
 

@@ -1,5 +1,24 @@
-body{
-    background-color:black;
-    
-    
+
+
+.container{
+    background-color:red;
+    margin: 0% 40% 0% 40%;
+
+
+    h1{
+        display:block;
+        background-color:blue;
+        text-align: center;
+    }
+
+    form{
+       margin: 0% 10% 0% 10%;
+       background-color:gray;
+       padding: 0% 10% 0% 10%;
+   }
+}
+
+
+input,label{
+    display: block;
 }

@@ -4,7 +4,6 @@
     background-color:red;
     margin: 0% 40% 0% 40%;
 
-
     h1{
         display:block;
         background-color:blue;
@@ -12,9 +11,18 @@
     }
 
     form{
-       margin: 0% 10% 0% 10%;
+       display:block;
        background-color:gray;
-       padding: 0% 10% 0% 10%;
+       padding: 0% 10% 5% 10%;
+
+       input,label{
+             width: 100%;
+      }
+
+      .login{
+          margin-top: 1em;
+          width: 100%;
+      }
    }
 }
 
